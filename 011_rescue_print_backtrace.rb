@@ -3,7 +3,7 @@ def b; a; end
 def c; b; end
 
 begin
-  c()
+  c
 rescue => e
   puts e.backtrace.join("\n")
 end
